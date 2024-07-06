@@ -1,0 +1,116 @@
+
+[
+    {
+        "type": "Animation des structures d'interaction avec l'environnement socio-économique et organisation des manifestations scientifiques (le nom du candidat organisateur doit figurer sur le dépliant correspondant, à fournir)",
+        "activités": [
+            {"activité": "Contribution à l'organisation d'activités de rayonnement de l'établissement (séminaires, congrès, colloque, ateliers, formation continue, ou autre)",
+             "informations": [
+                {"name": "Nom conférence",
+                "name_database": "nomConférence",
+                "itemType": "input"},
+                {"name": "Lien",
+                "name_database": "lien",
+                "itemType": "input"},
+                {"name": "Type (national/international)",
+                "name_database": "type",
+                "itemType": "select",
+                "options": [{"value": "National"}, {"value": "International"}]},
+                {"name": "Rôle",
+                "name_database": "role",
+                "itemType": "select",
+                "options": [{"value": "Responsable"}, {"value": "Membre"}, {"value": "Membre organisateur"}, {"value": "Prix de distinction"}]},
+                {"name": "Date de conférence",
+                "name_database": "date",
+                "itemType": "input"} 
+            ]
+            }]},
+    {
+        "type": "Expertise et valorisation d'actions au profit des milieux socio-économiques (correctement justifiée par une attestation ou un rapport d'expertise signé et cacheté par le chef d'établissement) ",
+        "activités": [
+            {
+                "activité": "Projet de recherche et de développement avec le secteur privé",
+                "informations": [
+                    {"name": "Titre Projet",
+                    "name_database": "titreProjet",
+                    "itemType": "input"},
+                    {"name": "Cadre",
+                    "name_database": "cadre",
+                    "itemType": "input"},
+                    {"name": "Rôle",
+                    "name_database": "role",
+                    "itemType": "select",
+                    "options": [{"value": "Responsable"}, {"value": "Membre"}]},
+                    {"name": "Année",
+                    "name_database": "année",
+                    "itemType": "input"}
+            ]
+            },
+            {
+                "activité": "Brevet",
+                "informations": [
+                    {"name": "Auteur",
+                    "name_database": "auteur",
+                    "itemType": "input"},
+                    {"name": "Titre",
+                    "name_database": "titre",
+                    "itemType": "input"},
+                    {"name": "DOI",
+                    "name_database": "doi",
+                    "itemType": "input"},
+                    {"name": "Journal/revue",
+                    "name_database": "journalRevue",
+                    "itemType": "input"},
+                    {"name": "ISBN",
+                    "name_database": "isbn",
+                    "itemType": "input"},
+                    {"name": "Année",
+                     "name_database": "année",
+                     "itemType": "input"},
+                     {"name": "Pages",
+                     "name_database": "pages",
+                    "itemType": "input"},
+                     {"name": "Indexation",
+                     "name_database": "indexation",
+                    "itemType": "input"}
+            ]
+            },
+            {
+                "activité": "Incubation de projet de recherche et de développement",
+                "informations": [
+                    {"name": "Projet",
+                    "name_database": "projet",
+                    "itemType": "input"},
+                    {"name": "Cadre",
+                    "name_database": "cadre",
+                    "itemType": "input"},
+                    {"name": "Role",
+                    "name_database": "role",
+                    "itemType": "select",
+                    "options": [{"value": "Responsable"}, {"value": "Membre"}]},
+                    {"name": "Années",
+                    "name_database": "années",
+                    "itemType": "input"}
+                    
+                ]
+            },
+            {
+                "activité": "Création de start up",
+                "informations": [
+                    {"name": "Projet",
+                    "name_database": "projet",
+                    "itemType": "input"},
+                    {"name": "Cadre",
+                    "name_database": "cadre",
+                    "itemType": "input"},
+                    {"name": "Role",
+                    "name_database": "role",
+                    "itemType": "select",
+                    "options": [{"value": "Responsable"}, {"value": "Membre"}]},
+                    {"name": "Années",
+                    "name_database": "années",
+                    "itemType": "input"}
+                ]
+            }
+        ]
+    }
+]

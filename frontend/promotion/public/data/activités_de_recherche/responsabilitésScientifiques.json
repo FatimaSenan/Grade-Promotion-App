@@ -1,0 +1,95 @@
+
+[
+    {
+        "type": "Responsable ou membre d'une structure de recherche (au moins une année) ",
+        "activités": [
+            {"activité": "Responsable ou membre d'une structure de recherche accréditée ou d'un pole de compétence(cumulable)",
+             "informations": [
+                {"name": "Domaine d'expertise",
+                "name_database": "domaineExpertise",
+                "itemType": "select",
+                "options": [{"value": "Structure de recherche"}, {"value": "Pole de compétences"}]},
+                {"name": "Résponsabilité",
+                "name_database": "responsabilité",
+                "itemType": "select",
+                "options": [{"value": "Responsable"}, {"value": "Membre"}]},
+                {"name": "Années",
+                "name_database": "années",
+                "itemType": "input"}]
+            },
+           
+            {"activité": "Association pour la connaissance",
+             "informations": [
+                {"name": "Résponsabilité",
+                "name_database": "responsabilité",
+                "itemType": "select",
+                "options": [{"value": "Président d’une association"}, {"value": "Membre du bureau"}]},
+                {"name": "Années",
+                "name_database": "années",
+                "itemType": "input"}]
+            }
+            
+        ]
+    },
+    {
+        "type": "Projets ou contrats de recherche (Attestation délivrée par le chef d'établissement)",
+        "activités": [
+            {
+                "activité": "Projets ou contrats de recherche au niveau national ou international ou les deux",
+                "informations": [
+                    {"name": "Titre de projet",
+                    "name_database": "titreProjet",
+                    "itemType": "input"},
+                    {"name": "Responsabilité",
+                    "name_database": "responsabilité",
+                    "itemType": "select",
+                    "options": [{"value": "Responsable"}, {"value": "Membre"}]},
+                    {"name": "Cadre de projet",
+                    "name_database": "cadre",
+                    "itemType": "input"},
+                    {"name": "Type",
+                    "name_database": "type",
+                    "itemType": "select",
+                    "options": [{"value": "National"}, {"value": "International"}]},
+                    {"name": "Période",
+                    "name_database": "période",
+                    "itemType": "input"}]
+            }
+        ]
+    },
+    {
+        "type": "Les activités d'expertises et d'évaluations scientifiques nationales et internationales (correctement justifiée par une attestation ou un rapport signé par le chef d'établissement) ",
+        "activités": [
+            {
+                "activité": "Editeur, membre ou référé d'un journal ou revue scientifique",
+                "informations": [
+                    {"name": "Journal/Revue",
+                    "name_database": "journalRevue",
+                    "itemType": "input"},
+                    {"name": "ISBN/ISSN",
+                    "name_database": "isbnIssn",
+                    "itemType": "input"},
+                    {"name": "Role",
+                    "name_database": "role",
+                    "itemType": "select",
+                    "options": [{"value": "Editeur"}, {"value": "Membre éditorial"}, {"value": "Référé"}]},
+                    {"name": "Année",
+                    "name_database": "année",
+                    "itemType": "input"}]
+            },
+            {
+                "activité": "Expertise non rémunérée de projet de recherche scientifique",
+                "informations": [
+                    {"name": "Projet",
+                    "name_database": "projet",
+                    "itemType": "input"},
+                    {"name": "Nature d'éxpertise",
+                    "name_database": "natureExpertise",
+                    "itemType": "input"},
+                    {"name": "Année",
+                    "name_database": "année",
+                    "itemType": "input"}]
+            }
+        ]
+    }
+]

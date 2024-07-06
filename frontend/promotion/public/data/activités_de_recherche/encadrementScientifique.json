@@ -1,0 +1,86 @@
+
+[
+    {
+        "type": "Encadrement des thèses de doctorat (Attestation délivrée par le chef d'établissement)",
+        "activités": [
+            {"activité": "Doctorats encadrés",
+             "informations": 
+             [
+                {"name": "Status",
+                "name_database": "status",
+                "itemType": "select",
+                "options": [{"value": "Soutenus"},{"value": "En cours de préparation"}]},
+
+                {"name": "Date 1 ère Inscription",
+                "name_database": "dateInscription",
+                "itemType": "input"},
+                 {"name": "Sujet",
+                 "name_database": "sujet",
+                 "itemType": "input"},
+                 {"name": "Formation doctorale",
+                 "name_database": "formationDoctorale",
+                 "itemType": "input"},
+                  {"name": "Laboratoire",
+                  "name_database": "laboratoire",
+                  "itemType": "input"},
+                  {"name": "Doctorant",
+                  "name_database": "doctorant",
+                  "itemType": "input"},
+                  {"name": "Directeur de thèse",
+                  "name_database": "directeurThese",
+                  "itemType": "input"},
+                  {"name": "Date de soutenance",
+                  "name_database": "dateSoutenance",
+                  "itemType": "input"}
+                ]
+            }
+            
+        ]
+    },
+    {
+        "type": "Encadrement des mémoires de Master (Attestation délivrée par le chef d'établissement)",
+        "activités": [
+            {
+                "activité": "Encadrement des mémoires de Master",
+                "informations": [
+                    {"name": "Sujet Master",
+                    "name_database": "sujet",
+                    "itemType": "input"},
+                    {"name": "Étudiant(s)",
+                    "name_database": "étudiants",
+                    "itemType": "input"},
+                    {"name": "Année",
+                    "name_database": "année",
+                    "itemType": "input"},
+                    {"name": "Encadrant",
+                    "name_database": "encadrant",
+                    "itemType": "input"} ]
+            }
+        ]
+    },
+    {
+        "type": " Participation comme président ou rapporteur ou membre du jury de thèse de doctorat ou d'habilitation (Attestation délivrée par le chef d'établissement)",
+        "activités": [
+            {
+                "activité": "Participaction à thèse doctorat ou d'habilitation",
+                "informations": [
+                    {"name": "Type de participation",
+                    "name_database": "role",
+                    "itemType": "select",
+                    "options":[{"value": "Président"}, {"value": "Rapporteur"}, {"value": "Membre"}]},
+                    {"name": "Sujet de thèse ",
+                    "name_database": "sujet",
+                    "itemType": "input"},
+                    {"name": "Doctorant",
+                    "name_database": "doctorant",
+                    "itemType": "input"},
+                    {"name": "Date",
+                    "name_database": "date",
+                    "itemType": "input"},
+                    {"name": "Université",
+                    "name_database": "université",
+                    "itemType": "input"}]
+            }
+        ]
+    }
+]

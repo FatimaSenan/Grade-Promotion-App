@@ -1,0 +1,166 @@
+
+[
+    {
+        "type": "Articles scientifiques publiés dans des revues indexées internationales, ou des actes de congrès internationaux ou nationaux ou à comité de lecture internationaux ou nationaux",
+        "activités": [
+            {"activité": "Publications dans des revues indexées dans les bases internationales  comme: SCOPUS, THOMPSON",
+             "informations": [
+                {"name": "Niveau",
+                "name_database": "niveau",
+                "itemType": "select",
+                "options": [{"value": "Niveau 1: Impact factor<1"}, {"value": "Niveau 2: Impact factor de 1 à <5"}, {"value": "Niveau 3: Impact factor 6 et +"}]},
+                {"name": "Titre",
+                "name_database": "titre",
+                "itemType": "input"},
+                {"name": "Auteurs",
+                "name_database": "auteurs",
+                "itemType": "input"},
+                {"name": "DOI",
+                "name_database": "doi",
+                "itemType": "input"},
+                {"name": "Lien",
+                "name_database": "lien",
+                "itemType": "input"},
+                {"name": "Journal",
+                "name_database": "journal",
+                "itemType": "input"},
+                {"name": "ISBN",
+                "name_database": "isbn",
+                "itemType": "input"},
+                {"name": "Année de publication",
+                "name_database": "annéePublication",
+                "itemType": "input"}]
+            },
+       
+        {"activité": "Publications dans des revues scientifiques nationales ou internationales à comité de lecture ISSN (tel qu'il est défini  dans la liste officielle du CNRST)",
+            "informations": [
+                {"name": "Type",
+                "name_database": "type",
+                "itemType": "select",
+                "options": [{"value": "Nationale"}, {"value": "Internationale"}]},
+                {"name": "Titre",
+                "name_database": "titre",
+                "itemType": "input"},
+                {"name": "Auteurs",
+                "name_database": "auteurs",
+                "itemType": "input"},
+                {"name": "Lien",
+                "name_database": "lien",
+                "itemType": "input"},
+                {"name":"Journal",
+                "name_database": "journal",
+                "itemType": "input"},
+                {"name": "ISSN",
+                "name_database": "issn",
+                "itemType": "input"},
+                {"name": "Année de publication",
+                "name_database": "annéePublication",
+                "itemType": "input"}]
+        }
+            
+        ]
+    },
+    {
+        "type": "Ouvrages de recherche",
+        "activités": [
+            {
+                "activité": "Ouvrage spécialisé ISBN et publié par une maison d'édition",
+                "informations": [
+                    {"name": "Publicateur",
+                    "name_database": "publicateur",
+                    "itemType": "select",
+                    "options": [{"value": "Maison d'édition"}, {"value": "L'auteur lui meme"}]},
+                    {"name": "Titre",
+                    "name_database": "titre",
+                    "itemType": "input"},
+                    {"name": "ISBN",
+                    "name_database": "isbnIssn",
+                    "itemType": "input"},
+                    {"name": "Auteurs",
+                    "name_database": "auteurs",
+                    "itemType": "input"},
+                    {"name": "Dépôt légal",
+                    "name_database": "depotLegal",
+                    "itemType": "input"},
+                    {"name": "Date",
+                    "name_database": "date",
+                    "itemType": "input"}]
+            },
+           
+            {
+                "activité": "Chapitre d'un ouvrage collectif publié par une maison d'édition ISBN",
+                "informations": [
+                    {"name": "Titre",
+                    "name_database": "titre",
+                    "itemType": "input"},
+                    {"name": "ISBN",
+                    "name_database":"isbn",
+                    "itemType": "input"},
+                    {"name": "Auteurs",
+                    "name_database": "auteurs",
+                    "itemType": "input"},
+                    {"name": "Dépôt légal",
+                    "name_database": "depotLegal",
+                    "itemType": "input"},
+                    {"name": "Date",
+                    "name_database": "date",
+                    "itemType": "input"}
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Communications dans des congrès ou des conférences (rédigées et publiées dans le Proceeding)(Les communications ne peuvent être comptabilisées qu'une seule fois)",
+        "activités": [
+            {
+                "activité": "Congrès ou conférence (rédigées et publiées dans le Proceeding)(Les communications ne peuvent être comptabilisées qu'une seule fois)",
+                "informations": [
+                    {"name": "Type de congrès",
+                    "name_database": "type",
+                    "itemType": "select",
+                    "options": [{"value": "Nationale"}, {"value": "Internatinale"}]},
+                    {"name": "Nom Conférence",
+                    "name_database": "nomConférence",
+                    "itemType": "input"},
+                    {"name": "Année de conférence",
+                    "name_database": "année",
+                    "itemType": "input"},
+                    {"name": "lien",
+                    "name_database": "lien",
+                    "itemType": "input"},
+                    {"name": "Titre communication",
+                    "name_database": "titreCommunication",
+                    "itemType": "input"},
+                    {"name": "Auteurs",
+                    "name_database": "auteurs",
+                    "itemType": "input"}
+                ]
+            }
+        ]
+    },
+    {
+        "type": " Communications dans des congrès ou des conférences (non publiés) (Les communications ne peuvent être comptabilisées qu'une seule fois)",
+        "activités": [
+            {
+                "activité": "Communications dans des congrès ou des conférences (non publiés)",
+                "informations": [
+                    {"name": "Nom Conférence",
+                    "name_database": "nomConférence",
+                    "itemType": "input"},
+                    {"name": "Année de conférence",
+                    "name_database": "année",
+                    "itemType": "input"},
+                    {"name": "Lien",
+                    "name_database": "lien",
+                    "itemType": "input"},
+                    {"name": "Titre communication",
+                    "name_database": "titreCommunication",
+                    "itemType": "input"},
+                    {"name": "Auteurs",
+                    "name_database": "auteurs",
+                    "itemType": "input"}
+                ]
+            }]
+        
+    }
+]
