@@ -87,7 +87,7 @@ L'application vise à :
 
 
 ### **8. Logout**  
-![Logout](./Screenshots_Promotion/LogOut.png)  
+![Logout](./Screenshots_Promotion/Log_out.png)  
 
 ### **11. Commission**  
 ![Commission](./Screenshots_Promotion/Table_Commission.png)  
