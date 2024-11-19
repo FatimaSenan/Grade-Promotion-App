@@ -59,7 +59,7 @@ L'application vise à :
 ## 📸 **Aperçus Visuels**  
 
 ### **1. Accueil**  
-![Accueil](./screenshots/Accueil.png)  
+![Accueil](./Screenshots_Promotion/Acceuil.png_)  
 
 ### **2. Activités**  
 ![Activités](./screenshots/Activités.png)  
