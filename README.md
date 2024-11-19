@@ -56,31 +56,7 @@ L'application vise à :
 
 ---
 
-## 📸 **Aperçus Visuels**  
-
-### **1. Accueil**  
-![Accueil](./Screenshots_Promotion/Acceuil.png)  
-
-### **2. Activités**  
-![Activités](./Screenshots_Promotion/Activités.png)  
-
-### **3. Administration**  
-![Administration](./Screenshots_Promotion/Administration.png)  
-
-### **4. Annexe 2**  
-![Annexe 2](./Screenshots_Promotion/Annexe2.png)  
-
-### **5. Annexe 3**  
-![Annexe 3](./Screenshots_Promotion/Annexe3.png)  
-
-### **6. Grille**  
-![Grille](./Screenshots_Promotion/Grille.png)  
-
-### **7. Menu Grille**  
-![Menu Grille](./Screenshots_Promotion/MenuGrille.png)  
-
-### **8. Logout**  
-![Logout](./Screenshots_Promotion/LogOut.png)  
+## 📸 ** Quelques Aperçus Visuels (Non Exhaustifs**  
 
 ### **9. Sign In**  
 ![Sign In](./Screenshots_Promotion/Sign%20In.png)
@@ -88,8 +64,36 @@ L'application vise à :
 ### **10. Sign Up**  
 ![Sign Up](./Screenshots_Promotion/Sign%20Up.png)  
 
+
+### **1. Accueil**  
+![Accueil](./Screenshots_Promotion/Acceuil.png)  
+
+### **7. Menu Grille**  
+![Menu Grille](./Screenshots_Promotion/MenuGrille.png)  
+
+### **6. Grille**  
+![Grille](./Screenshots_Promotion/Grille.png)  
+
+
+### **2. Activités**  
+![Activités](./Screenshots_Promotion/Activités.png)  
+
+
+### **4. Annexe 2**  
+![Annexe 2](./Screenshots_Promotion/Annexe2.png)  
+
+### **5. Annexe 3**  
+![Annexe 3](./Screenshots_Promotion/Annexe3.png)  
+
+
+### **8. Logout**  
+![Logout](./Screenshots_Promotion/LogOut.png)  
+
 ### **11. Commission**  
 ![Commission](./Screenshots_Promotion/Table_Commission.png)  
+
+### **3. Administration**  
+![Administration](./Screenshots_Promotion/Administration.png)  
  
 
 ---
@@ -112,9 +116,11 @@ Ouvrez le dossier backend dans votre IDE préféré.
 Configurez les paramètres de connexion à la base de données dans le fichier application.properties situé dans src/main/resources
 
 4. Exécutez le Backend
-cd backend
-mvn spring-boot:run
+    ```bash
+    cd backend
+   mvn spring-boot:run
 
-5. Lancez le Frontend
-cd frontend
-npm start
+6. Lancez le Frontend
+    ```bash
+   cd frontend
+   npm start
