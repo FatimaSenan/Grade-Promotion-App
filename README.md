@@ -59,37 +59,38 @@ L'application vise à :
 ## 📸 **Aperçus Visuels**  
 
 ### **1. Accueil**  
-![Accueil](/Screenshots_Promotion/Acceuil.png_)  
+![Accueil](./Screenshots_Promotion/Acceuil.png)  
 
 ### **2. Activités**  
-![Activités](./screenshots/Activités.png)  
+![Activités](./Screenshots_Promotion/Activités.png)  
 
 ### **3. Administration**  
-![Administration](./screenshots/Administration.png)  
+![Administration](./Screenshots_Promotion/Administration.png)  
 
 ### **4. Annexe 2**  
-![Annexe 2](./screenshots/Annexe2.png)  
+![Annexe 2](./Screenshots_Promotion/Annexe2.png)  
 
 ### **5. Annexe 3**  
-![Annexe 3](./screenshots/Annexe3.png)  
+![Annexe 3](./Screenshots_Promotion/Annexe3.png)  
 
 ### **6. Grille**  
-![Grille](./screenshots/Grille.png)  
+![Grille](./Screenshots_Promotion/Grille.png)  
 
 ### **7. Menu Grille**  
-![Menu Grille](./screenshots/menuGrille.png)  
+![Menu Grille](./Screenshots_Promotion/MenuGrille.png)  
 
 ### **8. Logout**  
-![Logout](./screenshots/Logout.png)  
+![Logout](./Screenshots_Promotion/LogOut.png)  
 
 ### **9. Sign In**  
-![Sign In](./screenshots/signIn.png)  
+![Sign In](./Screenshots_Promotion/Sign%20In.png)
 
 ### **10. Sign Up**  
-![Sign Up](./screenshots/signUp.png)  
+![Sign Up](./Screenshots_Promotion/Sign%20Up.png)  
 
 ### **11. Commission**  
-![Commission](./screenshots/Commission.png)  
+![Commission](./Screenshots_Promotion/Table_Commission.png)  
+ 
 
 ---
 
